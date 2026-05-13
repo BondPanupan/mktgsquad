@@ -1,1 +1,2 @@
 {"timestamp":"00:00:04.094","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:04:13.193","source":"Server","level":"WARN","message":"The model 'claude-sonnet-4-20250514' is deprecated and will reach end-of-life on June 15th, 2026\nPlease migrate to a newer model. Visit https://docs.anthropic.com/en/docs/resources/model-deprecations for more information."}
