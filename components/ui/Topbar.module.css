@@ -1,0 +1,49 @@
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 56px;
+  padding: 0 24px;
+  background: rgba(11, 11, 24, 0.9);
+  border-bottom: 1px solid rgba(220, 220, 236, 0.08);
+  backdrop-filter: blur(12px);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.brand { display: flex; align-items: center; }
+
+.logo {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: #dcdcec;
+  background: linear-gradient(135deg, #E8445A, #AA00FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.right { display: flex; align-items: center; gap: 16px; }
+
+.user {
+  font-size: 14px;
+  color: rgba(220, 220, 236, 0.6);
+}
+
+.signout {
+  font-size: 13px;
+  color: rgba(220, 220, 236, 0.5);
+  background: none;
+  border: 1px solid rgba(220, 220, 236, 0.12);
+  border-radius: 6px;
+  padding: 5px 12px;
+  cursor: pointer;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.signout:hover {
+  color: #dcdcec;
+  border-color: rgba(220, 220, 236, 0.3);
+}

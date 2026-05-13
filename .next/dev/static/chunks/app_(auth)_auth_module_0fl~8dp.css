@@ -1,0 +1,128 @@
+/* [project]/app/(auth)/auth.module.css [app-client] (css) */
+.auth-module__Cgra4q__page {
+  background: #0b0b18;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 24px;
+  display: flex;
+}
+
+.auth-module__Cgra4q__card {
+  background: #12122a;
+  border: 1px solid #dcdcec1a;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 420px;
+  padding: 40px;
+}
+
+.auth-module__Cgra4q__brand {
+  letter-spacing: -.02em;
+  background: linear-gradient(135deg, #e8445a, #a0f);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  margin-bottom: 28px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.auth-module__Cgra4q__title {
+  margin-bottom: 6px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.auth-module__Cgra4q__sub {
+  color: #dcdcec80;
+  margin-bottom: 28px;
+  font-size: 14px;
+}
+
+.auth-module__Cgra4q__error {
+  color: #e8445a;
+  background: #e8445a1f;
+  border: 1px solid #e8445a4d;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  padding: 10px 14px;
+  font-size: 13px;
+}
+
+.auth-module__Cgra4q__form {
+  flex-direction: column;
+  gap: 16px;
+  display: flex;
+}
+
+.auth-module__Cgra4q__field {
+  flex-direction: column;
+  gap: 6px;
+  display: flex;
+}
+
+.auth-module__Cgra4q__label {
+  color: #dcdcecb3;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.auth-module__Cgra4q__input {
+  color: #dcdcec;
+  background: #0b0b18;
+  border: 1px solid #dcdcec1f;
+  border-radius: 8px;
+  outline: none;
+  padding: 10px 14px;
+  font-size: 14px;
+  transition: border-color .2s;
+}
+
+.auth-module__Cgra4q__input:focus {
+  border-color: #dcdcec59;
+}
+
+.auth-module__Cgra4q__input::placeholder {
+  color: #dcdcec40;
+}
+
+.auth-module__Cgra4q__submit {
+  color: #fff;
+  cursor: pointer;
+  background: linear-gradient(135deg, #e8445a, #a0f);
+  border: none;
+  border-radius: 8px;
+  margin-top: 4px;
+  padding: 12px;
+  font-size: 15px;
+  font-weight: 600;
+  transition: opacity .15s;
+}
+
+.auth-module__Cgra4q__submit:disabled {
+  opacity: .6;
+  cursor: not-allowed;
+}
+
+.auth-module__Cgra4q__submit:not(:disabled):hover {
+  opacity: .9;
+}
+
+.auth-module__Cgra4q__footer {
+  text-align: center;
+  color: #dcdcec73;
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+.auth-module__Cgra4q__link {
+  color: #dcdceccc;
+  font-weight: 500;
+}
+
+.auth-module__Cgra4q__link:hover {
+  color: #dcdcec;
+}
+
+/*# sourceMappingURL=app_%28auth%29_auth_module_0fl~8dp.css.map*/

@@ -1,0 +1,108 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0b0b18;
+  padding: 24px;
+}
+
+.card {
+  width: 100%;
+  max-width: 420px;
+  background: #12122a;
+  border: 1px solid rgba(220, 220, 236, 0.1);
+  border-radius: 16px;
+  padding: 40px;
+}
+
+.brand {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  background: linear-gradient(135deg, #E8445A, #AA00FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 28px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.sub {
+  font-size: 14px;
+  color: rgba(220, 220, 236, 0.5);
+  margin-bottom: 28px;
+}
+
+.error {
+  background: rgba(232, 68, 90, 0.12);
+  border: 1px solid rgba(232, 68, 90, 0.3);
+  color: #E8445A;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 13px;
+  margin-bottom: 16px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.field { display: flex; flex-direction: column; gap: 6px; }
+
+.label {
+  font-size: 13px;
+  font-weight: 500;
+  color: rgba(220, 220, 236, 0.7);
+}
+
+.input {
+  background: #0b0b18;
+  border: 1px solid rgba(220, 220, 236, 0.12);
+  border-radius: 8px;
+  padding: 10px 14px;
+  color: #dcdcec;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.input:focus { border-color: rgba(220, 220, 236, 0.35); }
+.input::placeholder { color: rgba(220, 220, 236, 0.25); }
+
+.submit {
+  background: linear-gradient(135deg, #E8445A, #AA00FF);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 4px;
+  transition: opacity 0.15s;
+}
+
+.submit:disabled { opacity: 0.6; cursor: not-allowed; }
+.submit:not(:disabled):hover { opacity: 0.9; }
+
+.footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 13px;
+  color: rgba(220, 220, 236, 0.45);
+}
+
+.link {
+  color: rgba(220, 220, 236, 0.8);
+  font-weight: 500;
+}
+
+.link:hover { color: #dcdcec; }
